@@ -1,9 +1,3 @@
----
-title: Pour commencer avec Python 
-subtitle: Comment utiliser simplement Python en Physique-Chimie
----
-
-
 # Environnement python
 
 ## Introduction
@@ -29,19 +23,19 @@ Si ce n'est pas le cas, alors vous allez devoir passer par l'étape
 Pour utiliser les fonctionnalités python via votre ENT, connectez vous
 sur votre ENT "comme d'habitude".
 
-![Connexion Nero](./02-installation/images/nero-login.PNG)
+![Connexion Nero](./images/nero-login.PNG)
 
-![Connexion académique](./02-installation/images/aca-login.PNG)
+![Connexion académique](./images/aca-login.PNG)
 
 Naviguez ensuite vers votre espace "Mes documents"
 
-![Mes documents](./02-installation/images/nero-home.PNG)
+![Mes documents](./images/nero-home.PNG)
 
 Cliquez ensuite sur le bouton "Créer" (ou bien via un clic droit de la
 souris) : dans la liste des formats de fichier disponible, vous
 devriez voir apparaître "Jupyter Notebook". 
 
-![Créer un notebook 1](./02-installation/images/nero-jupyter.PNG)
+![Créer un notebook 1](./images/nero-jupyter.PNG)
 
 Si "Jupyter Notebook" n'apparaît pas, il faut demander à
 l'administrateur ENT de votre établissement de l'activer. La procédure
@@ -50,7 +44,7 @@ prend moins d'une minute, les détails sont à la fin de ce document).
 Si il apparaît, cliquez dessus, et nommez votre fichier. Une fenêtre
 apparaît alors, c'est votre nouveau notebook.
 
-![Créer un notebook 2](./02-installation/images/nero-jupyter-2.PNG)
+![Créer un notebook 2](./images/nero-jupyter-2.PNG)
 
 Vous alors pouvez taper 
 
@@ -60,13 +54,13 @@ print("Bonjour le monde")
 
 dans la cellule "In".
 
-![Créer un notebook 3](./02-installation/images/nero-jupyter-3.PNG)
+![Créer un notebook 3](./images/nero-jupyter-3.PNG)
 
 Exécutez ensuite ce premier programme en cliquant sur
 le bouton "Run". Vous devriez voir apparaître la phrase "Bonjour le
 monde" juste en dessous. 
 
-![Créer un notebook 4](./02-installation/images/nero-jupyter-4.PNG)
+![Créer un notebook 4](./images/nero-jupyter-4.PNG)
 
 
 Vous avez exécuté votre premier programme python. Vous pouvez
@@ -113,9 +107,9 @@ en haut à gauche. Choisir la version correspondant à votre système
 
 Le téléchargement prend un certain temps (+ de 600 Mo).
 
-![Installer anaconda 01](./02-installation/images/anaconda-install-01.PNG)
+![Installer anaconda 01](./images/anaconda-install-01.PNG)
 
-![Installer anaconda 02](./02-installation/images/anaconda-install-02.PNG)
+![Installer anaconda 02](./images/anaconda-install-02.PNG)
 
 
 **Etape 2** Installer anaconda
@@ -129,16 +123,16 @@ différentes étapes sont suffisantes, en gros :
 espaces est préférable)
 - définir anaconda comme interpréteur python par défaut
 
-![Installer anaconda](./02-installation/images/anaconda-install-03.PNG)
-![Installer anaconda](./02-installation/images/anaconda-install-04.PNG)
-![Installer anaconda](./02-installation/images/anaconda-install-05.PNG)
-![Installer anaconda](./02-installation/images/anaconda-install-06.PNG)
+![Installer anaconda](./images/anaconda-install-03.PNG)
+![Installer anaconda](./images/anaconda-install-04.PNG)
+![Installer anaconda](./images/anaconda-install-05.PNG)
+![Installer anaconda](./images/anaconda-install-06.PNG)
 
 
 Puis attendre la fin de la copie des fichiers (qui prend aussi un
 certain temps)
 
-![Installer anaconda](./02-installation/images/anaconda-install-07.PNG)
+![Installer anaconda](./images/anaconda-install-07.PNG)
 
 
 Une fois la copie des fichiers terminées et l'apparition de quelques
@@ -160,12 +154,12 @@ Les différentes fonctionnalités d'anaconda sont regroupées dans une
 interface appelée *Anaconda Navigator*. Vous pouvez y accéder par le
 menu Démarrer, dans la rubrique *Anaconda*.
 
-![Exécuter anaconda](./02-installation/images/annav-01.png)
+![Exécuter anaconda](./images/annav-01.png)
 
 La page d'accueil d'Anaconda Navigator présente les différentes
 applications installées (Launch) ou installables (Install).
 
-![Exécuter anaconda](./02-installation/images/annav-02.PNG)
+![Exécuter anaconda](./images/annav-02.PNG)
 
 
 La plupart des exemples de ce guide sont des **Notebooks
@@ -180,13 +174,13 @@ documents; choisissez le répertoire de votre choix, et une fois que
 vous êtes dedans, vous pouvez créer votre premier notebook : bouton
 "New" en haut à droite, choisir "Python 3".
 
-![Exécuter anaconda](./02-installation/images/annav-jupyter-1.PNG)
+![Exécuter anaconda](./images/annav-jupyter-1.PNG)
 
-![Exécuter anaconda](./02-installation/images/annav-jupyter-2.PNG)
+![Exécuter anaconda](./images/annav-jupyter-2.PNG)
 
 Un nouvel onglet s'ouvre alors, avec votre notebook.
 
-![Exécuter anaconda](./02-installation/images/annav-jupyter-3.PNG)
+![Exécuter anaconda](./images/annav-jupyter-3.PNG)
 
 Pour modifier le titre du notebook, cliquez dessus une fois qu'il est
 ouvert. Dans la cellule "Entrée", vous pouvez écrire
