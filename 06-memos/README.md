@@ -1,9 +1,10 @@
 
 # Mémos
-## Syntaxe Python pour la physique-chimie DD
+## Syntaxe Python pour la physique-chimie
 
+XXX
 
-## Mémo Notebook Jupyter JMB
+## Mémo Notebook Jupyter
 ### Syntaxe Markdown
 
 Le Markdown est une manière d'écrire simplement un texte pouvant être
