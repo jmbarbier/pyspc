@@ -1,5 +1,6 @@
 # Guide d’utilisation rapide du Notebook Jupyter
 
+
 Après avoir téléchargé & installé Anaconda sur votre ordinateur : 
 
 ![Lancement jupyter notebook](./images/guide-001.png "Lancement notebook Jupyter")
