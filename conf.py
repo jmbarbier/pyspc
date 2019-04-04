@@ -67,3 +67,16 @@ html_static_path = ['_static']
 
 nbsphinx_allow_errors = True
 nbsphinx_execute = 'never'
+
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+	'papersize': 'a4paper',
+# The font size ('10pt', '11pt' or '12pt').
+	'pointsize': '12pt',
+#'preamble':'',
+
+	'figure_align': 'H'
+
+}
+

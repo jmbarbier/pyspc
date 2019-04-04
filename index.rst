@@ -1,8 +1,8 @@
 Python pour la SPC au lycée
 ===========================
 
-Accès et téléchargement
------------------------
+Accès et téléchargements
+------------------------
 
 Le contenu de ce guide est disponible :
 
@@ -13,8 +13,22 @@ Le contenu de ce guide est disponible :
 - dans l'ENT de l'académie de Rouen, dans le groupe "Python pour la SPC" (en cours de création)
 - sur `github <https://github.com/jmbarbier/pyspc>`_
 
-Table des matières
-------------------
+
+.. image:: _static/ccbysa.png
+	   
+`Licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International* <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr>`_
+
+Auteurs :
+
+- BARBIER Jean-Matthieu <jean-matthieu.barbier@ac-rouen.fr>
+- DEDEVEUX Dominique <dominique.dedeveux@ac-rouen.fr>
+- DELACOUR Pascal <pascal.delacour@ac-rouen.fr>
+- DENDIEVEL Alexis <alexis.dendievel@ac-rouen.fr>
+- GRANDPRE Caroline <caroline.grandpre@ac-rouen.fr>
+- REBOLINI Gaelle <gaelle-nathalie.rebolini@ac-rouen.fr>
+
+Introduction et installation
+----------------------------
 
 .. toctree::
    :maxdepth: 2
@@ -23,6 +37,13 @@ Table des matières
    02-installation/index.rst
    03-guide/index.rst
    04-exemples/index.rst
+
+Les bases, mémos et activités
+-----------------------------
+
+.. toctree::
+   :maxdepth: 2
+	      
    05-bases/index.rst
    06-memos/index.rst
    07-activites/index.rst
