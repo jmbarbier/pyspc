@@ -26,6 +26,7 @@ jupyter-client==5.2.4
 jupyter-console==6.0.0
 jupyter-core==4.4.0
 kiwisolver==1.0.1
+Markdown==2.6.11
 MarkupSafe==1.1.1
 matplotlib==3.0.3
 mistune==0.8.4
@@ -55,6 +56,7 @@ Send2Trash==1.5.0
 six==1.12.0
 snowballstemmer==1.2.1
 Sphinx==2.0.0
+sphinx-markdown-tables==0.0.9
 sphinxcontrib-applehelp==1.0.1
 sphinxcontrib-devhelp==1.0.1
 sphinxcontrib-htmlhelp==1.0.1
