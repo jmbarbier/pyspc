@@ -1,0 +1,25 @@
+{
+  "name": "pyspc",
+  "version": "0.1.0",
+  "description": "Python pour les sciences physiques au lycée",
+  "main": "_build/html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmbarbier/pyspc.git"
+  },
+  "keywords": [
+    "educ",
+    "python",
+    "sciences",
+    "physique"
+  ],
+  "author": "Grp Python SPC Acad Rouen",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jmbarbier/pyspc/issues"
+  },
+  "homepage": "https://github.com/jmbarbier/pyspc#readme"
+}
