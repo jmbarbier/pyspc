@@ -152,16 +152,34 @@ différentes étapes sont suffisantes, en gros :
    espaces est préférable)
 -  définir anaconda comme interpréteur python par défaut
 
-|Installer anaconda| |Installer anaconda| |Installer anaconda|
-|Installer anaconda|
+.. figure:: ./images/anaconda-install-03.PNG
+   :alt: Installaer anaconda 03
+
+   Installer anacondat 03
+
+.. figure:: ./images/anaconda-install-04.PNG
+   :alt: Installaer anaconda 04
+	 
+   Installer anacondat 04
+
+.. figure:: ./images/anaconda-install-05.PNG
+   :alt: Installaer anaconda 05
+
+   Installer anacondat 05
+
+.. figure:: ./images/anaconda-install-06.PNG
+   :alt: Installaer anaconda 06
+
+   Installer anacondat 06
+
 
 Puis attendre la fin de la copie des fichiers (qui prend aussi un
 certain temps)
 
 .. figure:: ./images/anaconda-install-07.PNG
-   :alt: Installer anaconda
+   :alt: Installer anaconda 07
 
-   Installer anaconda
+   Installer anaconda 07
 
 Une fois la copie des fichiers terminées et l’apparition de quelques
 fenêtres noires (qu’il ne faut pas fermer, elles se ferment toute seules
@@ -240,10 +258,25 @@ continuer à explorer les ressources de ce guide.
 Activation des notebooks sur Nero
 ---------------------------------
 
-TODO
+Pour activer les notebooks sur Nero, en tant qu'administrateur de l'ENT :
 
-.. |Installer anaconda| image:: ./images/anaconda-install-03.PNG
-.. |Installer anaconda| image:: ./images/anaconda-install-04.PNG
-.. |Installer anaconda| image:: ./images/anaconda-install-05.PNG
-.. |Installer anaconda| image:: ./images/anaconda-install-06.PNG
+1. Sélectionner dans la barre de navigation latérale "Administration > Applications"
+2. Cliquer sur l'icône "Jupyter"
+3. Sélectionner d'icône de paramètrage (la roue dentée)
+4. Ajouter une règle de diffusion pour le public concerné
+
+.. figure:: ./images/enable-nero-nb-1.png
+   :alt: Activer les notebooks sur Nero 1
+
+   Activer les notebooks sur Nero : étape 1
+
+.. figure:: ./images/enable-nero-nb-2.png
+   :alt: Activer les notebooks sur Nero 2
+
+   Activer les notebooks sur Nero : étape 2
+
+.. figure:: ./images/enable-nero-nb-3.png
+   :alt: Activer les notebooks sur Nero 3
+
+   Activer les notebooks sur Nero : étape 3
 

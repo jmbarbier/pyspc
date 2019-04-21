@@ -27,9 +27,9 @@ Licence
 **Auteurs, par ordre alphabétique**
 
 - BARBIER Jean-Matthieu <jean-matthieu.barbier@ac-rouen.fr>
-- DEDEVEUX Dominique <dominique.dedeveux@ac-rouen.fr>
 - DELACOUR Pascal <pascal.delacour@ac-rouen.fr>
 - DENDIEVEL Alexis <alexis.dendievel@ac-rouen.fr>
+- DEVEDEUX Dominique <dominique.devedeux@ac-rouen.fr>
 - GRANDPRE Caroline <caroline.grandpre@ac-rouen.fr>
 - REBOLINI Gaelle <gaelle-nathalie.rebolini@ac-rouen.fr>
 
@@ -37,7 +37,7 @@ Introduction et installation
 ############################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    01-introduction/index.rst
    02-installation/index.rst
@@ -48,7 +48,7 @@ Les bases, mémos et activités
 #############################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 	      
    05-bases/index.rst
    06-memos/index.rst

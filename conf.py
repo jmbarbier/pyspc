@@ -22,7 +22,7 @@ copyright = '2019, GRP Python'
 author = 'GRP Python'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.0'
+release = '0.2.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -33,7 +33,9 @@ release = '0.1.0'
 extensions = [
 	"nbsphinx",
 	"recommonmark",
-	"sphinx.ext.mathjax"
+	"sphinx.ext.mathjax",
+	"sphinx_markdown_tables"
+
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -49,7 +51,7 @@ language = 'fr'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '_build', '**.ipynb_checkpoints', "venv", "*pasfini"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '_build', '**.ipynb_checkpoints', "venv", "*pasfini", "**README.md"]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -73,9 +75,9 @@ latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 	'papersize': 'a4paper',
 # The font size ('10pt', '11pt' or '12pt').
-	'pointsize': '12pt',
+	'pointsize': '10pt',
 #'preamble':'',
-
+	'preamble': '\setcounter{tocdepth}{3}\setcounter{secnumdepth}{4}',
 	'figure_align': 'H'
 
 }

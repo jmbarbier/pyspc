@@ -5,11 +5,13 @@ Classe de première
    :maxdepth: 2
 
    ./animation_onde_corde/animation_onde_corde_long_a_charger.ipynb
-   ./modelisation_frottement/PDF_modelisation_frottement.ipynb
+   ./modelisation_frottement/PFD_modelisation_frottement.ipynb
    ./mouvement_etude_energetique/mouvement_etude_energetique.ipynb
+   ./mouvement_parabolique_et_acceleration_csv/mouvement_parabolique_et_acceleration_sans_fonctions.ipynb
    ./mouvement_parabolique_et_acceleration_csv/mouvement_parabolique_et_acceleration_avec_fonctions.ipynb
-   ./suivi_avancement/Avancement_avec_fonctions_eleves.ipynb
-   ./suivi_avancement/Avancement_avec_fonctions_profs.ipynb
-
+   ./suivi_avancement/suivi_avancement_eleves.ipynb
+   ./suivi_avancement/suivi_avancement_prof.ipynb
+   ./signal_periodique/signal_periodique_eleves.ipynb
+   ./signal_periodique/signal_periodique_prof.ipynb
    
 
