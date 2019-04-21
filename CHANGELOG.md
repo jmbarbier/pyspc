@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.1](https://github.com/jmbarbier/pyspc/compare/v0.2.0...v0.2.1) (2019-04-21)
+
+
+### Bug Fixes
+
+* **authors:** typo pour Dominique ([3140760](https://github.com/jmbarbier/pyspc/commit/3140760))
+* **clean:** suppression des checkpoints restants ([d29b41b](https://github.com/jmbarbier/pyspc/commit/d29b41b))
+* **deps:** add sphinx_markdown_tables dep ([42612db](https://github.com/jmbarbier/pyspc/commit/42612db))
+* **version:** read version from package.json ([0701bbe](https://github.com/jmbarbier/pyspc/commit/0701bbe))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # 0.2.0 (2019-04-21)
 
 
