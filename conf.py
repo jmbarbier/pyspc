@@ -22,7 +22,12 @@ copyright = '2019, GRP Python'
 author = 'GRP Python'
 
 # The full version, including alpha/beta/rc tags
-release = '0.2.0'
+try:
+    import json
+    with open("./package.json", "r") as pkjs:
+        release = json.load(pkjs)["version"]
+except:
+    release = '0.2.0'
 
 
 # -- General configuration ---------------------------------------------------
