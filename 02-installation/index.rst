@@ -12,16 +12,28 @@ exécutables par l’ordinateur.
 Il est donc nécessaire de disposer de cet interpréteur pour pouvoir
 exécuter un programme écrit en python.
 
+Même si un simple fichier texte permet d'écrire un programme python, il
+existe un environnement beaucoup plus sympathique, avec de grandes possibilités
+pédagogiques : les **Notebooks Jupyter**. Nous avons fait le choix de cet outil
+pour les sciences physiques.
+
 Si votre établissement dispose de l’ENT Pentila Nero (celui auquel on
 accède via
 `www.l-educdenormandie.fr <https://www.l-educdenormandie.fr>`__), vous
-avez déjà un environnement python prêt à être utilisé.
+avez déjà un environnement Python/Jupyter prêt à être utilisé, avec les
+fonctionnalités utiles de l'ENT (groupes, partager un document, accès maison /
+établissement, casier pour déposer / rendre un travail...)
 
-Si ce n’est pas le cas, alors vous allez devoir passer par l’étape
+Si ce n’est pas le cas, condoléances, vous allez devoir passer par l’étape
 “installation de python”, un peu plus loin dans ce document.
 
 Python via l’ENT
 ----------------
+
+**Des changements dans l'ENT & les notebooks Jupyter sont prévus pour la 
+rentrée 2019, ces captures d'écran & instructions risquent de changer. 
+Nous mettrons en ligne une version adaptée au plus vite dès que les
+modifications seront effectives**.
 
 Pour utiliser les fonctionnalités python via votre ENT, connectez vous
 sur votre ENT “comme d’habitude”.
@@ -110,7 +122,14 @@ Il n’est pas évident de rajouter à la main un paquet sous windows, c’est
 pour cela que plusieurs *distributions* de python (le programme python +
 un choix de paquets) sont disponibles. Chaque distribution a ses
 avantages et ses inconvénients. Nous avons fait le choix d’utiliser une
-des plus complètes, `anaconda <https://anaconda.com>`__.
+des plus complètes, et qui a l'avantage de gérer directement les notebooks
+Jupyter : `anaconda <https://anaconda.com>`__.
+
+Cette installation peut être faite sur un ordinateur personnel (à la maison),
+sur des ordinateurs d'une classe mobile ou d'une salle info. La solution ENT
+est à privilégier, mais l'installation locale peut permettre de s'adapter à
+des situations particulières (pas de réseau / problèmes de réseau / pas d'ENT
+/ ...)
 
 Installation
 ~~~~~~~~~~~~
@@ -193,8 +212,8 @@ pouvez les décocher ou jeter un coup d’oeil aux ressources proposées.
 
 Anaconda est alors installé.
 
-Exécution : Anaconda Navigator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exécution
+~~~~~~~~~
 
 Les différentes fonctionnalités d’anaconda sont regroupées dans une
 interface appelée *Anaconda Navigator*. Vous pouvez y accéder par le
@@ -253,7 +272,8 @@ et cliquer sur le bouton “Exécuter”. Vous devriez voir apparaître la
 phrase “Bonjour le monde” juste en dessous.
 
 Vous avez fait votre premier programme en python. Vous pouvez maintenant
-continuer à explorer les ressources de ce guide.
+continuer à explorer les ressources de ce guide en utilisant cette installation.
+
 
 Activation des notebooks sur Nero
 ---------------------------------

@@ -10,15 +10,11 @@ voici trois exemples :
   simulation de lancés de dés 
 - le troisième propose une animation sur les ondes progressives.
 
-Il vous suffit d'exécuter les cellules du :download:`notebook
-<exemples.ipynb>` 
-
-
-Voir le `résultat en ligne <exemples-md/exemples.md>`_ ou
-:download:`en fichier PDF<exemples.pdf>`
+Vous pouvez télécharger et exécuter chaque notebook.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Exemples:
+   :maxdepth: 1
 
-   exemples.ipynb
+   exemple_1_structure_atome.ipynb
+   exemple_2_decroissance_radioactive.ipynb
+   exemple_3_ondes_progressives.ipynb
