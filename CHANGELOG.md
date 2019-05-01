@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.2](https://github.com/jmbarbier/pyspc/compare/v0.2.1...v0.2.2) (2019-05-01)
+
+
+### Bug Fixes
+
+* **pdf:** chasse aux inputs, reorganisation fonctions, ajout pdf partout ([5cda7d2](https://github.com/jmbarbier/pyspc/commit/5cda7d2))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [0.2.1](https://github.com/jmbarbier/pyspc/compare/v0.2.0...v0.2.1) (2019-04-21)
 
 

@@ -1,6 +1,9 @@
 Syntaxe Markdown
 ################
 
+:download:`Télécharger le pdf <https://pyspc.readthedocs.io/fr/latest/06-memos/syntax-md.pdf>`
+
+
 Le Markdown est une manière d’écrire simplement un texte pouvant être
 transformé facilement en un autre type de document (pdf, html, word…) en
 utilisant quelques conventions pour obtenir une mise en forme ou des
