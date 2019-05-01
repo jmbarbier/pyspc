@@ -1,6 +1,8 @@
 Mémo LaTeX pour les formules de physique
 ########################################
 
+:download:`Télécharger le pdf <https://pyspc.readthedocs.io/fr/latest/06-memos/syntax-latex.pdf>`
+
 Formule mathématique
 ====================
 
