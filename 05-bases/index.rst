@@ -20,7 +20,8 @@ bientôt :)
    04-operations_basiques.ipynb
    05-tests.ipynb
    06-boucles.ipynb
-   08-listes.ipynb
+   07-listes.ipynb
+   08-tableaux_numpy.ipynb
    09-fichiers-csv.ipynb
    10-graphiques_partie_1.ipynb
    10-graphiques_partie_2.ipynb
