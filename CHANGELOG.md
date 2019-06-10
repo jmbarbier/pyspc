@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.3.0](https://github.com/jmbarbier/pyspc/compare/v0.2.3...v0.3.0) (2019-06-10)
+
+
+### Bug Fixes
+
+* **activites:** précisiions numpy ([43ccc69](https://github.com/jmbarbier/pyspc/commit/43ccc69))
+
+
+### Features
+
+* **bases:** ajout tableaux numpy ([c4fd66c](https://github.com/jmbarbier/pyspc/commit/c4fd66c))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [0.2.3](https://github.com/jmbarbier/pyspc/compare/v0.2.2...v0.2.3) (2019-06-06)
 
 
