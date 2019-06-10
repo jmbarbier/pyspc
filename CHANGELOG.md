@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.1](https://github.com/jmbarbier/pyspc/compare/v0.3.0...v0.3.1) (2019-06-10)
+
+
+### Bug Fixes
+
+* **bases:** changement niveau et presentation titres ([123d8bf](https://github.com/jmbarbier/pyspc/commit/123d8bf))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # [0.3.0](https://github.com/jmbarbier/pyspc/compare/v0.2.3...v0.3.0) (2019-06-10)
 
 
