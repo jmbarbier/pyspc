@@ -1,6 +1,6 @@
 {
   "name": "pyspc",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Python pour les sciences physiques au lycée",
   "main": "_build/html/index.html",
   "scripts": {
