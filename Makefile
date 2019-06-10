@@ -6,18 +6,29 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = _build
+NBSOURCES := $(shell find $(SOURCEDIR) -name "*.ipynb" ! -name "*-download.ipynb" | grep -v checkpoints) 
+NBPDFS := $(patsubst %.ipynb, %.pdf, $(NBSOURCES))
 
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile
+.PHONY: help pdfs Makefile
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	
 www: Makefile
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	rsync -av --delete _build/html/ /home/eleve/www/
+
+pdfs: $(NBPDFS)
+
+$(NBPDFS): $(NBSOURCES)
+%.pdf: %.ipynb
+	(cd $(dir $<); jupyter nbconvert --to pdf $(notdir $<) --template classicm)
+html: Makefile
+	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+epub: Makefile
+	@$(SPHINXBUILD) -M epub "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+latexpdf: Makefile
+	@$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
